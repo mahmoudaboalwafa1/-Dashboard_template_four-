@@ -11,6 +11,12 @@ div.plans {
   padding-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+  div.plans {
+    grid-template-columns: repeat(auto-fill , minmax(250px , 1fr))
+  }
+}
+
 div.plan {
   background-color: white;
   padding: 20px;
