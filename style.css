@@ -124,7 +124,6 @@ section.dashboard a:hover {
 
 section.draft {
   border-radius: 10px;
-  height: 320px;
   position: relative;
 }
 
@@ -245,9 +244,19 @@ div.green span {
 }
 
 @media (max-width: 768px) {
+  div.blue span,
+div.orange span,
+div.green span {
+  right: 10%;
+}
   div.orange span {
-    right: calc(55% - 40px);
+    right: 40%;
   }
+
+  div.green span {
+    right: 19%;
+  }
+
 }
 
 div.blue span::after,
@@ -494,13 +503,22 @@ div.circleremd::after {
   top: -20px;
 }
 
+div.circleremg::after {
+  background-color: #22c55e;
+}
+
+div.circleremo::after {
+  background-color: #f59e0b;
+}
+
+div.circleremd::after {
+  background-color: #f44336;
+}
+
+
 /* end Reminders */
 
 /* start post */
-
-section.post {
-  height: 350px
-}
 
 div.posts img {
   width: 60px;
