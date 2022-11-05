@@ -132,3 +132,19 @@ position: relative;
 padding: 5px 10px;
 border-radius: 6px;
 }
+
+.border-r-tr {
+border-top-left-radius: 10px;
+}
+
+.border-r-tl {
+border-top-right-radius: 10px;
+}
+
+.border-r-br {
+border-bottom-left-radius: 10px;
+}
+
+.border-r-bl {
+border-bottom-right-radius: 10px;
+}
